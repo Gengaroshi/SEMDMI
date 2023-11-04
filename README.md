@@ -1,39 +1,40 @@
-SEModDownloader for Space Engineers - API
-SEModDownloaderMod.io is a powerful tool designed for downloading mods from Mod.io, tailored for Space Engineers enthusiasts. To begin using this tool, follow these simple steps:
+# SEModDownloader for Space Engineers - API
 
-Create a Mod.io Profile
+SEModDownloaderMod.io is a tool that allows you to download mods from Mod.io for the game Space Engineers. You need to add your API key to get started. Here are the steps:
 
-First, you need to create a profile on the Mod.io website. Navigate to your profile settings, and under "Management" in the "API Access" section, you can generate your personal access key. Be sure to accept the terms and conditions.
-Add Your API Key
+1. **Create a Mod.io Profile**
 
-Prior to using SEModDownloaderMod.io, you must insert your Mod.io API key into the apikey.config file. Follow these easy steps:
+   - First, you need to create a profile on the Mod.io website. Navigate to your profile settings, and under "Management" in the "API Access" section, you can generate your personal access key. Be sure to accept the terms and conditions.
 
-Open the apikey.config file.
+2. **Add Your API Key**
 
-Paste your Mod.io API key below the comment:
+   - Prior to using SEModDownloaderMod.io, you must insert your Mod.io API key into the `apikey.config` file. Follow these easy steps:
+   
+     - Open the `apikey.config` file.
+     - Paste your Mod.io API key below the comment:
+     
+       ```
+       # Paste your API key here
+       YourApiKeyGoHere
+       ```
 
-graphql
-Copy code
-# Paste your API key here
-YourApiKeyGoHere
-Running the Program
+3. **Running the Program**
 
-Start the SEModDownloader program.
-Locate the Mod ID and Download
+   - Start the SEModDownloader program.
 
-After launching the program, you'll need to find the Mod ID of the mod you want to download.
-Enter the Mod ID in the dedicated field.
-Click the "Download Files" button.
-The program will automatically download your selected mods to the "Downloaded Files" folder, situated within the application directory.
-Mod ID Example
-![image](https://github.com/Gengaroshi/SEMDMI/assets/147588429/7c4a28ba-11be-4041-830d-56f38c13f8f6)
+4. **Locate the Mod ID and Download**
 
-Alternatively, you can locate the mod's ID on the Mod's page. Examine your browser's URL; the ID is the number that appears at the end of the URL following "mods." For instance:
-lua
-Copy code
+   - After launching the program, you'll need to find the Mod ID of the mod you want to download.
+   - Enter the Mod ID in the dedicated field.
+   - Click the "Download Files" button.
+   - The program will automatically download your selected mods to the "Downloaded Files" folder, situated within the application directory.
+
+   - Alternatively, you can locate the mod's ID on the Mod's page. Examine your browser's URL; the ID is the number that appears at the end of the URL following "mods." For instance:
+
 https://mod.io/spaceengineers/mods/123456
+
 In this example, the mod's ID is 123456.
 
-Note:
+**Note:**
 
 This program is designed to simplify mod downloads and can be customized to meet your specific requirements. If you need assistance with configurations or have any usage-related queries, please don't hesitate to reach out to us.
