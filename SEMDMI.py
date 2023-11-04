@@ -34,11 +34,11 @@ def download_mod_files():
         if 'data' in data and len(data['data']) > 0:
             url_download = data['data'][0]['download']['binary_url']
             download_mod_file(mod_id, url_download)
+            mod_id_entry.delete(0, 'end')
         else:
             set_status("No mod files found", "red")
     else:
         set_status(f"Failed to download mod files. Status code: {response.status_code}", "red")
-
 
 def download_mod_file(mod_id, url):
     response = requests.get(url)
