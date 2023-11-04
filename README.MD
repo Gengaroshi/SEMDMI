@@ -29,12 +29,6 @@ SEModDownloaderMod.io is a tool that allows you to download mods from Mod.io for
    - Click the "Download Files" button.
    - The program will automatically download your selected mods to the "Downloaded Files" folder, situated within the application directory.
 
-   - Alternatively, you can locate the mod's ID on the Mod's page. Examine your browser's URL; the ID is the number that appears at the end of the URL following "mods." For instance:
-
-https://mod.io/spaceengineers/mods/123456
-
-In this example, the mod's ID is 123456.
-
 **Note:**
 
 This program is designed to simplify mod downloads and can be customized to meet your specific requirements. If you need assistance with configurations or have any usage-related queries, please don't hesitate to reach out to us.
