@@ -39,4 +39,4 @@ In this example, the mod's ID is 123456.
 
 This program is designed to simplify mod downloads and can be customized to meet your specific requirements. If you need assistance with configurations or have any usage-related queries, please don't hesitate to reach out to us.
 
-All informations by official api methods: https://docs.mod.io/?python#delete-mod
+All informations by official api methods: https://docs.mod.io/?python#get-mods
