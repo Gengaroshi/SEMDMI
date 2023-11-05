@@ -54,7 +54,6 @@ def download_mod_file(mod_id, url):
     else:
         set_status(f"Failed to download the file. Status code: {response.status_code}", "red")
 
-
 def load_api_key_from_file():
     if os.path.exists(config_file_path):
         try:
@@ -74,6 +73,13 @@ def load_api_key_from_file():
         api_key_entry.delete(0, 'end')
         api_key_entry.insert(0, default_api_key)
 
+def paste_mod_id():
+    clipboard_contents = window.clipboard_get()
+    if clipboard_contents.isdigit():
+        mod_id_entry.delete(0, 'end')
+        mod_id_entry.insert(0, clipboard_contents)
+    else:
+        set_status("Invalid clipboard content. Mod ID must be a number.", "red")
 
 window = tk.Tk()
 window.title("Mod.io Downloader for SE - API")
@@ -91,6 +97,9 @@ mod_id_label.pack(fill='x')
 
 mod_id_entry = tk.Entry(window)
 mod_id_entry.pack(fill='x')
+
+paste_button = tk.Button(window, text="Paste Mod ID from clipboard", command=paste_mod_id)
+paste_button.pack()
 
 download_button = tk.Button(window, text="Download Files", command=download_mod_files)
 download_button.pack()
