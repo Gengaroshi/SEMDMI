@@ -1,4 +1,4 @@
-# SEModDownloader for Space Engineers - API
+# Mod.io - ModDownloader for Space Engineers - API
 
 SEModDownloaderMod.io is a tool that allows you to download mods from Mod.io for the game Space Engineers. You need to add your API key to get started. Here are the steps:
 
