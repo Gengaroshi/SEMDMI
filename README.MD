@@ -24,7 +24,8 @@ SEModDownloaderMod.io is a tool that allows you to download mods from Mod.io for
 
 4. **Locate the Mod ID and Download**
 
-   - After launching the program, you'll need to find the Mod ID of the mod you want to download.
+   - After launching the program, you'll need to find the Mod ID of the mod you want to download (Mod ID can be found on page of chosen mod, right side of page).
+
    - Enter the Mod ID in the dedicated field.
    - Click the "Download Files" button.
    - The program will automatically download your selected mods to the "Downloaded Files" folder, situated within the application directory.
